@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: てすと
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        # tests:
+        #   - unique
+        #   - not_null
+
+  - name: てすと２
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        # tests:
+        #   - unique
+        #   - not_null

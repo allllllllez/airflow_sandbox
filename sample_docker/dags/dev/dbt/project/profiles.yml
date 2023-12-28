@@ -1,0 +1,13 @@
+project:
+  outputs:
+    dev:
+      account: <your_account>
+      database: <your_database>
+      password: <your_password>
+      role: SYSADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: <your_user>
+      warehouse: <your_warehouse>
+  target: dev
